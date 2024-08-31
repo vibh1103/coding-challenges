@@ -60,7 +60,7 @@ function calculateResults(data, options, context) {
     }
   
     // Default case when no specific option is provided
-    if (!options.bytes && !options.lines && !options.words && !options.chars) {
+    if (!results.length) {
       // Default options to display when none are provided
       const defaultStrategies = [LineCountStrategy, WordCountStrategy, ByteCountStrategy];
       for (const StrategyClass of defaultStrategies) {
