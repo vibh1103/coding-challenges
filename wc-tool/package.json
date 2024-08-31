@@ -1,0 +1,15 @@
+{
+  "name": "wc-tool",
+  "version": "1.0.0",
+  "description": "This challenge is to build your own version of the Unix command line tool wc!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "jest": "^29.7.0"
+  }
+}
